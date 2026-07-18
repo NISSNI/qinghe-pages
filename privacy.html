@@ -5,10 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>青禾账本隐私政策</title>
   <style>
-    body{max-width:760px;margin:0 auto;padding:32px 20px;font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;line-height:1.75;color:#172326;background:#f7fbfb}
-    h1,h2{line-height:1.25}h1{font-size:30px}h2{margin-top:28px;font-size:20px}
-    .card{padding:22px;border-radius:18px;background:rgba(255,255,255,.82);border:1px solid rgba(255,255,255,.9);box-shadow:0 16px 40px rgba(16,120,130,.08)}
-    .date{color:#657174;font-weight:700}a{color:#008d98}
+    body {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 32px 20px;
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.75;
+      color: #172326;
+      background: #f7fbfb;
+    }
+    h1, h2 { line-height: 1.25; }
+    h1 { font-size: 30px; }
+    h2 { margin-top: 28px; font-size: 20px; }
+    .card {
+      padding: 22px;
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.82);
+      border: 1px solid rgba(255, 255, 255, 0.9);
+      box-shadow: 0 16px 40px rgba(16, 120, 130, 0.08);
+    }
+    .date { color: #657174; font-weight: 700; }
+    a { color: #008d98; }
   </style>
 </head>
 <body>
@@ -16,27 +33,37 @@
     <h1>青禾账本隐私政策</h1>
     <p class="date">更新日期：2026-07-17</p>
     <p>青禾账本是一款个人财务记录工具。我们重视你的账目隐私，账目默认保存在设备本地；当设备已登录并可使用 iCloud 时，App 会使用 Apple CloudKit 私有数据库在你的设备之间同步数据。</p>
+
     <h2>我们收集哪些信息</h2>
     <p>当前版本不会要求你注册开发者账号，也不会把你的账目上传到开发者自建服务器。iCloud 同步使用你在系统中登录的 Apple 账户。</p>
     <p>你在 App 中主动输入的收入、支出、分类、小类、备注、账户、预算和周期账单信息，包括通过语音识别转换出的文字和快捷指令写入的账目，会通过 Apple SwiftData 保存在当前设备，并在 iCloud 可用时写入与你 Apple 账户关联的 CloudKit 私有数据库。iCloud 不可用时，App 会继续使用本地数据。</p>
+
     <h2>数据如何使用</h2>
     <p>账目数据仅用于展示概览、生成分析图表、计算预算进度、将你主动发起的语音记账转换成文字并填入记账表单、通过系统快捷指令写入你提供的账目信息、通过桌面小组件展示本月支出和预算摘要、在同一 Apple 账户的设备之间同步，以及在你主动操作时导出 CSV 或完整备份文件。</p>
+
     <h2>数据分享</h2>
     <p>当前版本不会主动向广告商、分析平台或其他第三方共享你的账目数据。iCloud 同步由 Apple CloudKit 提供，并受 Apple 的服务条款和隐私政策约束。当你点击导出 CSV 或完整备份时，系统会打开分享面板，导出后的文件由你自行选择保存、发送或分享的位置。</p>
+
     <h2>文件导入与恢复</h2>
     <p>你主动选择的通用 CSV、微信/支付宝官方账单 CSV 或 TXT、以及青禾账本备份文件只会在设备本地解析，不会上传开发者服务器。App 会在写入前展示识别、忽略和重复数量，并在导入时跳过重复账目。如果账单下载为压缩包，需要你先解压，再选择其中的 CSV 或 TXT 明细文件。</p>
+
     <h2>语音记账、快捷指令与小组件</h2>
     <p>语音记账仅在你主动点击语音按钮后请求麦克风和语音识别权限，识别出的文字用于填入记账表单。快捷指令仅处理你在系统快捷指令中输入的账目信息并写入本地账本。桌面小组件仅读取 App 写入 App Group 的月度支出和预算摘要，用于在桌面展示，不会上传开发者服务器。</p>
+
     <h2>生物识别与设备密码</h2>
     <p>隐私锁使用 Apple 系统提供的 Face ID、Touch ID 或设备密码进行验证。青禾账本不会读取、保存或上传你的生物识别信息。</p>
+
     <h2>数据删除</h2>
     <p>账目数据会保留到你主动删除为止。你可以在 App 的“设置”中使用“清空账目”删除已记录的收入和支出数据。启用 iCloud 同步时，删除会同步到同一 Apple 账户的其他设备。删除 App 会移除该设备上的应用数据，但不等同于删除仍保存在 iCloud 中的同步数据。</p>
+
     <h2>儿童隐私</h2>
     <p>青禾账本不面向儿童收集个人信息。</p>
+
     <h2>政策更新</h2>
     <p>如果未来加入开发者账号登录、分析统计、广告或其他第三方服务，本隐私政策和 App Store 隐私标签会同步更新。</p>
+
     <h2>联系我们</h2>
-    <p>如需反馈问题或提出建议，请访问<a href="support.html">青禾账本技术支持页面</a>。</p>
+    <p>如需反馈问题或提出建议，请发送邮件至 <a href="mailto:185850283@qq.com">185850283@qq.com</a>，或访问<a href="support.html">青禾账本技术支持页面</a>。建议附上 iPhone 型号、iOS 版本和问题截图，请勿发送包含真实账目的备份文件。</p>
   </main>
 </body>
 </html>
